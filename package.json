@@ -1,0 +1,39 @@
+{
+  "name": "wn-api",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lintfix": "eslint ./src ./test --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsaantos/node-wn-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Wilson Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilsaantos/node-wn-api/issues"
+  },
+  "homepage": "https://github.com/wilsaantos/node-wn-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^17.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
